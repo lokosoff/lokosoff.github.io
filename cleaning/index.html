@@ -13,18 +13,49 @@
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
 
 	<title>Химчистка мягкой мебели на дому в Кургане</title>
+
+	<!-- Yandex.Metrika counter --> <script type="text/javascript" > (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter50355241 = new Ya.Metrika2({ id:50355241, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/tag.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks2"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/50355241" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
 </head>
 <body>
+	<nav class="menu_fixed">
+		<div class="container">
+			<div class="row">
+				<ul class="nav_header_wrap col-md-6">
+					<li class="nav_header_item fixed_link"><a href="#home">Главная</a></li>
+					<li class="nav_header_item fixed_link"><a href="#about">О нас</a></li>
+					<li class="nav_header_item fixed_link"><a href="#prise">Стоимость</a></li>
+					<li class="nav_header_item fixed_link"><a href="#discount">Скидки</a></li>
+					<li class="nav_header_item fixed_link"><a href="#contacts">Контакты</a></li>
+				</ul>
+
+				<div class="burger_box fixed_burger col-xs-4">
+					<div class="burger">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+
+				<div class="nav_phone fixed_phone col-md-6 col-xs-8">
+					<a href="tel:89088354752">
+						<i class="fa fa-phone"></i>
+						8 (908) 835-47-52
+					</a>
+				</div>
+			</div>
+		</div>
+	</nav>
+
 	<header id="home" data-vide-bg="video/Wildlife">
 		<nav class="nav_header">
 			<div class="container">
 				<div class="row">
 					<ul class="nav_header_wrap col-md-6">
-						<li class="nav_header_item"><a href="#">Главная</a></li>
-						<li class="nav_header_item"><a href="#">О нас</a></li>
-						<li class="nav_header_item"><a href="#">Стоимость</a></li>
-						<li class="nav_header_item"><a href="#">Скидки</a></li>
-						<li class="nav_header_item"><a href="#">Контакты</a></li>
+						<li class="nav_header_item"><a href="#home">Главная</a></li>
+						<li class="nav_header_item"><a href="#about">О нас</a></li>
+						<li class="nav_header_item"><a href="#prise">Стоимость</a></li>
+						<li class="nav_header_item"><a href="#discount">Скидки</a></li>
+						<li class="nav_header_item"><a href="#contacts">Контакты</a></li>
 					</ul>
 
 					<div class="burger_box col-xs-4">
@@ -58,9 +89,9 @@
 				</div>
 
 				<div class="offer_form col-xs-12">
-					<form action="#">
+					<form action="header.php" name="header_form" method="POST">
 						<div class="offer_form_wrap">
-							<input class="offer_form_phone" type="tel" placeholder="Ваш телефон">
+							<input required name="phone" class="offer_form_phone" type="tel" placeholder="Ваш телефон">
 							<button class="btn_style offer_btn size22">
 								Записаться
 							</button>
@@ -69,7 +100,7 @@
 				</div>
 
 				<div class="offer_arrow_down center col-xs-12">
-					<a href="#">
+					<a href="#advantage">
 						<i class="fa fa-long-arrow-down"></i>
 					</a>
 				</div>
@@ -170,11 +201,11 @@
 					</div>	
 
 					<div class="about_link">
-						<a href="#">Группа ВКонтакте</a>
-						<a href="#">Написать во ВКонтакте</a>
-						<a href="#">Написать в whatsupp</a>
-						<a href="#">8 (963) 865-47-04</a>
-						<a href="#">8 (908) 835-47-52</a>
+						<a target="blank" href="https://vk.com/cleaning_kurgan">Группа ВКонтакте</a>
+						<a target="blank" href="https://vk.com/im?media=&sel=453825823">Написать во ВКонтакте</a>
+						<a href="whatsapp://send?phone=+79088354752">Написать в whatsupp</a>
+						<a href="tel:89638654704">8 (963) 865-47-04</a>
+						<a href="tel:89088354752">8 (908) 835-47-52</a>
 					</div>
 				</div>
 
@@ -246,7 +277,7 @@
 				</div>
 
 				<div class="prise_btn_box center col-xs-12">
-					<a href="">
+					<a href="#contacts">
 						<button class="prise_btn btn_style">
 							Записаться на химчистку
 						</button>
@@ -273,7 +304,7 @@
 					<img src="img/slide-1.jpg" alt="">
 				</div>
 
-				<div class="slide slide_active">
+				<div class="slide">
 					<img src="img/slide-1.jpg" alt="">
 				</div>
 
@@ -338,9 +369,11 @@
 				</div>
 
 				<div class="discount_btn_box center col-xs-12">
-					<button class="discount_btn">
-						Хочу эти скидки
-					</button>
+					<a href="#contacts">
+						<button class="discount_btn">
+							Хочу эти скидки
+						</button>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -354,8 +387,8 @@
 						<span class="contacts_head">
 							Почта:
 						</span>
-						<a class="contacts_link_main" href="#">
-							master-cleaning@yandex.ru
+						<a class="contacts_link_main" href="mailto:master-cleaning45@yandex.ru">
+							master-cleaning45@yandex.ru
 						</a>
 					</div>
 
@@ -372,7 +405,7 @@
 					</div>
 
 					<div class="contacts_box">
-						<a class="contacts_link_messang" href="#">Напишите нам в whatsapp</a>
+						<a class="contacts_link_messang" href="whatsapp://send?phone=+79088354752">Напишите нам в whatsapp</a>
 					</div>
 
 					<div class="contacts_box">
@@ -380,22 +413,22 @@
 					</div>
 
 					<div class="contacts_box">
-						<a class="contacts_link_vk" href="#">Заходите к нам в группу во ВКонтакте</a>
+						<a target="blank" class="contacts_link_vk" href="https://vk.com/cleaning_kurgan">Заходите к нам в группу во ВКонтакте</a>
 					</div>
 
 					<div class="contacts_box">
-						<a class="contacts_link_vk" href="#">Пишите сразу нам сообщение во ВКонтакте</a>
+						<a target="blank" class="contacts_link_vk" href="https://vk.com/im?media=&sel=453825823">Пишите сразу нам сообщение во ВКонтакте</a>
 					</div>
 				</div>
 
 				<div class="contacts_form col-md-6 col-xs-12">
-					<form class="contacts_form_wrap" action="#">
+					<form name="form_contacts" class="contacts_form_wrap" action="main.php" method="POST">
 						<h2 class="contacts_heading center">
 							Оставьте ваш телефон и мы перезвоним вам в течение 20 минут для записи на удобный вам день и час
 						</h2>
 
-						<input class="contacts_input" type="text" placeholder="Ваше имя"> 
-						<input required class="contacts_input" type="text" placeholder="Ваш телефон">
+						<input name="name" class="contacts_input" type="text" placeholder="Ваше имя"> 
+						<input name="phone" required class="contacts_input" type="text" placeholder="Ваш телефон">
 
 						<button class="btn_style btn_contacts">
 							Позвоните мне
@@ -424,11 +457,11 @@
 		</div>
 
 		<ul class="nav_fixed_menu">
-			<li class="nav_fixed_link"><a href="#">Главная</a></li>
-			<li class="nav_fixed_link"><a href="#">О нас</a></li>
-			<li class="nav_fixed_link"><a href="#">Стоимость</a></li>
-			<li class="nav_fixed_link"><a href="#">Скидки</a></li>
-			<li class="nav_fixed_link"><a href="#">Контакты</a></li>
+			<li class="nav_fixed_link"><a href="#home">Главная</a></li>
+			<li class="nav_fixed_link"><a href="#about">О нас</a></li>
+			<li class="nav_fixed_link"><a href="#prise">Стоимость</a></li>
+			<li class="nav_fixed_link"><a href="#discount">Скидки</a></li>
+			<li class="nav_fixed_link"><a href="#contacts">Контакты</a></li>
 		</ul>
 	</div>
 	
