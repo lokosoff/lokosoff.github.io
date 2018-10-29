@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="msapplication-TileColor" content="#ff7e7e">
+	<meta name="theme-color" content="#ff7e7e">
+	<title>Love Storis для влюблённых пар в Кургане</title>
+	<link href="https://fonts.googleapis.com/css?family=Lora:400i,700i&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.grid.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="media/media.css">
+
+</head>
+<body>
+	
+	<article>
+		<div class="container">
+			<div class="row">
+				<div class="descriptor col-xs-12">
+					<p>27.08.15</p>
+				</div>
+
+				<div class="offer col-xs-12">
+					<h1>
+						Егор & Карина
+						<br>
+						<br>
+						Мы приглашаем вас на наше свадьбу, которая состоится в ресторане "Название ресторана"	
+					</h1>
+				</div>
+
+				<div class="slider-wrap col-md-6 col-xs-12">
+
+					<button class="arrow prevArrow"><i class="fa fa-angle-left"></i></button>
+					<button class="arrow nextArrow"><i class="fa fa-angle-right"></i></button>
+
+					<div class="slider">
+					
+						<div class="slide">
+							<img src="img/slide-1.jpg" alt="">
+						</div>
+						<div class="slide">
+							<img src="img/slide-2.jpg" alt="">
+						</div>
+						<div class="slide">
+							<img src="img/slide-3.jpg" alt="">
+						</div>
+						<div class="slide">
+							<img src="img/slide-4.jpg" alt="">
+						</div>
+						<div class="slide">
+							<img src="img/slide-5.jpg" alt="">
+						</div>
+					</div>
+				</div>
+
+				<div class="form-wrap col-md-6 col-xs-12">
+					<div class="form">
+						<h2>
+							 Заполните форму для регистрации на нашу свадьбу.
+						</h2>
+						<form action="love-foto.php" method="POST">
+							<input name="hidden" type="hidden" value="Заявка на фотосессию">
+							<div class="input-block">
+								<input name="name" type="text" placeholder="Введите имя">
+							</div>
+
+							<div class="input-block">
+								<input name="tel" required type="text" placeholder="С какой вы стороны?">
+							</div>
+
+							<div class="input-block">
+								<input name="tel" required type="tel" placeholder="Кто придёт с вами?">
+							</div>
+							<div class="input-block">
+								<button>Зарегистрироваться на свадьбу</button>
+							</div>
+						</form>	
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</article>
+
+	<script src="js/jquery-1.12.4.min.js"></script>	
+	<script src="js/slick.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
