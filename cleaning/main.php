@@ -22,7 +22,7 @@ $mail->addAddress('master-cleaning45@yandex.ru');     // Add a recipient
 //$mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
 //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
 $mail->isHTML(true);                                  // Set email format to HTML
-$mail->Subject = 'Сообщение с одноэкранника';
+$mail->Subject = 'Сообщение с большого лендинга по клинингу';
 $mail->Body    = 'Имя отправителя: '.$name. '<br>'.
 				 'Телефон отправителя: '.$phone. '<br> <br>'.
 				 'Заявка пришла с главной контактной формы '
