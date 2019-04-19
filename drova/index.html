@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Доставка и производство дров в Кургане</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed:300,400,400i,700&amp;subset=cyrillic-ext" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/bootstrap.grid.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="media/media.css">
+
+	<link rel="icon" href ="img/logo.png" type= "image/x-icon" >
+	<link rel="shortcut icon" href ="img/logo.png" type="image/x-icon">	
+
+	<!-- Yandex.Metrika counter --> <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(53299765, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/53299765" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+
+</head>
+<body>
+
+	<nav id="nav">
+		<div class="container">
+			<div class="row">
+				<div class="logo_box col-md-4 col-sm-5 col-xs-12">
+					<img class="logo_img" src="img/logo.png" alt="">
+					<p class="logo_desc">
+						Доставка дров в Кургане
+					</p>
+				</div>
+
+				<div class="time_work col-md-4 col-sm-3">
+					Работаем с 9:00 до 20:00 <br>
+					по Кургану и области.
+				</div>
+
+				<div class="nav_phone_box col-md-4 col-sm-4 col-xs-12">
+					<a class="phone" href="tel:89088354752">
+						+7 (908) 835-47-52
+					</a>
+					<p class="phone_manager">
+						Менеджер Вячеслав
+					</p>
+				</div>	
+
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</nav>
+
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="head_box col-lg-10 col-lg-offset-1 col-xs-offset-0 col-xs-12">
+					<h1 class="head">
+						Производство и доставка дров в Кургане <span class="green">без предоплаты</span> за 3-4 часа к вам домой
+					</h1>
+				</div>
+
+				<div class="subtitle_box col-xs-12">
+					<h2 class="subtitle">
+						Оставьте свой телефон и получите скидку <span class="green">10%</span> на первый заказ по промокоду
+					</h2>
+				</div>
+
+				<div class="formheader_box col-xs-12">
+					<div class="form">
+						<img class="form_drova_img" src="img/form_drova.png" alt="">
+
+						<form name="form_promo" class="form_header" action="promo.php" method="POST">
+							<input required name="tel" class="input" type="tel" placeholder="Ваш телефон:*">
+
+							<input class="input" type="text" value="Промокод: первый">
+
+							<div class="confid_box">
+								<div class="check_box">
+									<img class="ok" src="img/check.svg" alt="">
+								</div>
+								<p class="confid_text">
+									Я соглашаюсь на обработку персональных данных.
+								</p>
+								<div class="clearfix"></div>
+							</div>
+
+							<button class="btn btn_header">
+								Получить скидку 10%
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section id="best">
+		<div class="container">
+			<div class="row">
+				<h2 class="heading best_head col-lg-8 col-lg-offset-2 col-xs-offset-0 col-xs-12">
+					Обработаем любой объём поставки дров в назначенное время и доставим их к вам домой
+				</h2>
+
+				<div class="best_block col-md-3 col-sm-6 col-xs-12">
+					<div class="icon_best">
+						<i class="ico_best fa fa-cog" aria-hidden="true"></i>
+					</div>
+
+					<p class="ico_text">
+						Собственное производство в Кургане.
+					</p>
+				</div>
+
+				<div class="best_block col-md-3 col-sm-6 col-xs-12">
+					<div class="icon_best">
+						<i class="ico_best fa fa-cart-plus"></i>
+					</div>
+
+					<p class="ico_text">
+						Укладываем дрова рядами, а не валом. Вы получаете честный объём.
+					</p>
+				</div>
+
+				<div class="best_block col-md-3 col-sm-6 col-xs-12">
+					<div class="icon_best">
+						<i class="ico_best fa fa-rub"></i>
+					</div>
+
+					<p class="ico_text">
+						Бесплатная разгрузка дров на месте заказа.
+					</p>
+				</div>
+
+				<div class="best_block col-md-3 col-sm-6 col-xs-12">
+					<div class="icon_best">
+						<i class="ico_best fa fa-thumbs-o-up"></i>
+					</div>
+
+					<p class="ico_text">
+						Мы производители, поэтому у нас самые свежие дрова.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="prise">
+		<div class="container">
+			<div class="row">
+				<h2 class="heading col-lg-8 col-lg-offset-2 col-xs-offset-0 col-xs-12">
+					Так как мы являемся производителем дров, вы не паереплачиваете посредникам
+				</h2>
+
+				<div class="prise_box col-xs-12">
+					<div class="prise_block">
+						<div class="prise_img_box">
+							<img src="img/prise-1.png" alt="">
+						</div>
+
+						<div class="prise_content_box">
+							<h3 class="prise_head">
+								Берёзовые дрова
+							</h3>
+
+							<p class="prise_text">
+								Колотые дрова: 1500 руб./ м3 <br>
+								Не колотые дрова: 1400 руб./ м3
+							</p>
+
+							<button class="btn btn_prise">
+								Узнать подробнее
+							</button>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+
+					<div class="prise_block">
+						<div class="prise_img_box">
+							<img src="img/prise-2.png" alt="">
+						</div>
+
+						<div class="prise_content_box">
+							<h3 class="prise_head">
+								Дрова сосновые
+							</h3>
+
+							<p class="prise_text">
+								Колотые:1400 руб./м3 <br>
+								Не колотые:1300 руб./м3
+							</p>
+
+							<button class="btn btn_prise">
+								Узнать подробнее
+							</button>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+
+					<div class="clearfix"></div>
+				</div>
+
+				<div class="prise_box col-xs-12">
+					<div class="prise_block">
+						<div class="prise_img_box">
+							<img src="img/prise-3.png" alt="">
+						</div>
+
+						<div class="prise_content_box">
+							<h3 class="prise_head">
+								Доска необрезная
+							</h3>
+
+							<p class="prise_text">
+								Дюймовка 6м - 3700 руб./м3
+							</p>
+
+							<button class="btn btn_prise">
+								Узнать подробнее
+							</button>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+
+					<div class="prise_block">
+						<div class="prise_img_box">
+							<img src="img/prise-4.png" alt="">
+						</div>
+
+						<div class="prise_content_box">
+							<h3 class="prise_head">
+								Горбыль
+							</h3>
+
+							<p class="prise_text">
+								Швырок: 600 руб./м3 <br>
+								Пиленый: 2м – 800 руб./м3
+							</p>
+
+							<button class="btn btn_prise">
+								Узнать подробнее
+							</button>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+
+					<div class="clearfix"></div>
+				</div>
+
+				<div class="prise_box col-xs-12">
+					<div class="prise_block">
+						<div class="prise_img_box">
+							<img src="img/prise-5.png" alt="">
+						</div>
+
+						<div class="prise_content_box">
+							<h3 class="prise_head">
+								Доска обрезная
+							</h3>
+
+							<p class="prise_text">
+								2м - 4000 руб./м3 <br>
+
+								3м - 6500 руб./м3 <br>
+
+								4м - 7000 руб./м3 <br>
+
+								6м - 7500 руб./м3
+							</p>
+
+							<button class="btn btn_prise">
+								Узнать подробнее
+							</button>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+
+					<div class="prise_block">
+						<div class="prise_img_box">
+							<img src="img/prise-6.png" alt="">
+						</div>
+
+						<div class="prise_content_box">
+							<h3 class="prise_head">
+								Брус 
+							</h3>
+
+							<p class="prise_text">
+								3м - 6800 руб./м3 <br>
+
+								4м – 7300 руб./м3 <br>
+
+								6м - 7800 руб./м3
+							</p>
+
+							<button class="btn btn_prise">
+								Узнать подробнее
+							</button>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="stage">
+		<img src="img/shepki.png" alt="" class="stage_img">
+		<div class="container">
+			<div class="row">
+				<div class="stage_head_box col-lg-8 col-lg-offset-2 col-xs-offset-0 col-xs-12">
+					<h2 class="heading stage_head">
+						Этапы заказа дров в нашей компании
+					</h2>
+				</div>
+
+				<div class="stage_box col-lg-10 col-lg-offset-1 col-xs-offset-0 col-xs-12">
+					<div class="stage_block">
+						<div class="stage_number_box">
+							<div class="stage_number_bg">
+								<p class="stage_number">
+									1.
+								</p>
+							</div>
+						</div>
+
+						<div class="stage_content">
+							<h3 class="stage_block_head">
+								Заявка
+							</h3>
+							<p class="stage_text">
+								<a class="yellow stage_btn">Оставьте заявку</a> на сайте или позвоните нам по телефону <br>
+								<a class="yellow" href="tel:89088354752">8 908 835 47 04</a>.
+							</p>
+						</div>
+
+						<div class="clearfix"></div>
+					</div>
+
+					<div class="stage_block">
+						<div class="stage_number_box">
+							<div class="stage_number_bg">
+								<p class="stage_number">
+									2.
+								</p>
+							</div>
+						</div>
+
+						<div class="stage_content">
+							<h3 class="stage_block_head">
+								Звонок нашего менеджера
+							</h3>
+							<p class="stage_text">
+								В течение 10 минут с вами свяжется наш менеджер на уточнения необходимого вам объёма, также он сразу назовёт вам точную цену.
+							</p>
+						</div>
+
+						<div class="clearfix"></div>
+					</div>
+				</div>
+
+				<div class="stage_box col-lg-10 col-lg-offset-1 col-xs-offset-0 col-xs-12">
+					<div class="stage_block">
+						<div class="stage_number_box">
+							<div class="stage_number_bg">
+								<p class="stage_number">
+									3.
+								</p>
+							</div>
+						</div>
+
+						<div class="stage_content">
+							<h3 class="stage_block_head">
+								Сбер заказа и доставка
+							</h3>
+							<p class="stage_text">
+								В течение нескольких часов мы собираем заказ и доставляем его вам. Доставка может быть назначена на любой удобный вам день.
+							</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+
+					<div class="stage_block">
+						<div class="stage_number_box">
+							<div class="stage_number_bg">
+								<p class="stage_number">
+									4.
+								</p>
+							</div>
+						</div>
+
+						<div class="stage_content">
+							<h3 class="stage_block_head">
+								Разгрузка и оплата
+							</h3>
+							<p class="stage_text">
+								В назначенный день мы доставляем вам дрова, после чего вы производите оплату. Разгрузка дров бесплатная.
+							</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="question">
+		<div class="container">
+			<div class="row">
+				<h2 class="heading question_heading col-lg-8 col-lg-offset-2 col-xs-offset-0 col-xs-12">
+					Отвечаем на самые частые вопросы наших клиентов
+				</h2>
+
+				<div class="question_box col-xs-12">
+					<div class="question_block">
+						<div class="question_head_box">
+							<p class="question_head">
+								Как проконтролировать качество ваших дров?
+							</p>
+
+							<div class="question_img">
+								<img src="img/arrow.svg" alt="">
+							</div>
+
+							<div class="clearfix"></div>
+						</div>
+
+						<div class="question_contant">
+							Чтобы проконтролировать качество дров, <a class="question_btn">оствьте заявку</a>, почле чего с вами свяжется наш менеджер. Он сможет выслать фотографии или видео продукции к вам на эл. почту ли по месссенджеру (Viber, Whatsapp). <br>
+
+							Также он сможет объяснить вам, как можно быстро добраться до нашей базы и вживую посмотреть качество.
+						</div>
+					</div>
+
+					<div class="question_block">
+						<div class="question_head_box">
+							<p class="question_head">
+								Какой длины дрова, как колем?
+							</p>
+
+							<div class="question_img">
+								<img src="img/arrow.svg" alt="">
+							</div>
+
+							<div class="clearfix"></div>
+						</div>
+
+						<div class="question_contant">
+							Длина дров ~45 сантиметров, +/-4см. Колка средне-крупная. Возможно наличие разноразмерных полений (от 35 до 55см) до 10%. Возможно наличие дров мелкой колки, до 10%.
+						</div>
+					</div>
+				</div>
+
+				<div class="question_box col-xs-12">
+					<div class="question_block">
+						<div class="question_head_box">
+							<p class="question_head">
+								Как укладываем дрова в машину?
+							</p>
+
+							<div class="question_img">
+								<img src="img/arrow.svg" alt="">
+							</div>
+
+							<div class="clearfix"></div>
+						</div>
+
+						<div class="question_contant">
+							Дрова в автомобиль укладываем вручную, рядами, поленницами, укладка средняя, не сильно плотная. 
+						</div>
+					</div>
+
+					<div class="question_block">
+						<div class="question_head_box">
+							<p class="question_head">
+								Делаем ли мы укладку дров в поленницу?
+							</p>
+
+							<div class="question_img">
+								<img src="img/arrow.svg" alt="">
+							</div>
+
+							<div class="clearfix"></div>
+						</div>
+
+						<div class="question_contant">
+							Делаем. Доплата за каждый куб +450 рублей. При условии укладки поленницы не далее 4-5 метров от места разгрузки. Расстояние более 5ти метров оплачивается дополнительно.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="logo_box col-md-4 col-sm-7 col-xs-12">
+					<img class="logo_img" src="img/logo.png" alt="">
+					<p class="logo_desc">
+						Доставка дров в Кургане
+					</p>
+				</div>
+
+				<div class="phone_footer col-md-2 col-sm-5 col-xs-12">
+					<a href="tel:89088354752" class="phone phone_foot">
+						+7 (908) 835-47-52
+					</a>
+				</div>
+
+				<div class="form_footer_box col-md-6 col-xs-12">
+					<h4 class="footer_subtitle">
+						У вас остались вопросы или вы хотите рассчитать стоимость нужного вам объёма дров?
+					</h4>
+					<h3 class="footer_head">
+						Оставьте свой телефон и наш менеджер перезвонит вам уже через 5-10 минут.
+					</h3>
+					<h5 class="footer_action">
+						Консультация <b>бесплатная</b>.
+					</h5>
+					<form class="form_footer" action="main.php" method="POST" name="popup_form">
+						<input required class="input" name="tel" type="tel" placeholder="Введите телефон:*">
+						<div class="confid_box">
+							<div class="check_box">
+								<img class="ok" src="img/check.svg" alt="">
+							</div>
+							<p class="confid_text">
+								Я соглашаюсь на обработку персональных данных.
+							</p>
+							<div class="clearfix"></div>
+						</div>
+						<button class="btn btn_footer">
+							Получить консультацию
+						</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<!-- ----------popup ------------------->
+
+	<div class="clous_popup">
+		<div class="popup_box">
+			<span class="clous_popup_x">x</span>
+			<h2 class="popup_head">
+				Оставьте свой телефон и наш менеджер перезвонит вам уже через 5-10 минут.
+			</h2>
+
+			<h3 class="popup_subtitle">
+				Консультация <b>бесплатная</b>.
+			</h3>
+
+			<form class="popup_form" action="main.php" method="POST">
+				<input required class="input" type="tel" placeholder="Введите телефон:*" name="tel">
+				
+				<div class="confid_box">
+					<div class="check_box">
+						<img class="ok" src="img/check.svg" alt="">
+					</div>
+					<p class="confid_text">
+						Я соглашаюсь на обработку персональных данных.
+					</p>
+					<div class="clearfix"></div>
+				</div>
+
+				<button class="btn btn_popup">
+					Получить консультацию
+				</button>
+			</form>
+		</div>
+	</div>
+
+	<!-- ----------call	 ---------------->
+
+	<div class="call_box">
+		<p class="call_ico">
+			<i class="fa fa-phone"></i>
+		</p>
+	</div>
+
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
